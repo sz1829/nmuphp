@@ -1,0 +1,474 @@
+@charset "utf-8";
+
+/*散拼团部分      s*/
+
+.customerInfo {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 0px;
+}
+
+.addClients ul.clients-info {
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	font-size: 0px;
+	text-align: center;
+	height: 276px;
+}
+
+.addClients ul.clients-info.indiviClientInfo {
+	width: 100%;
+}
+
+.addClients.air-customer ul.clients-info li {
+	width: 49% !important;
+	height: 220px;
+	padding: 0px;
+}
+
+.addClients ul.clients-info li {
+	width: 29.2%;
+	display: inline-block;
+	border-right: dashed 2px #a8aaff;
+	height: 286px;
+	vertical-align: top;
+	padding: 0px 2%;
+	margin-right: 0px;
+	font-size: 14px;
+}
+
+.addClients ul.clients-info li.last-info {
+	border-right: none;
+}
+
+.addClients ul.clients-info li dl {}
+
+.addClients ul.clients-info li dl dd {
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 17px;
+	width: 100% !important;
+}
+
+.addClients ul.clients-info li dl dd:last-child {
+	margin-bottom: 0px !important;
+}
+
+.addClients ul.clients-info li dl dd label {
+	display: inline-block;
+	min-width: 92px;
+	min-height: 24px;
+	background-color: #f2f5ff;
+	font-size: 14px;
+	text-align: center;
+	color: #6f7073;
+	font-weight: bold;
+	border-left: 3px #fbd608 solid;
+	border-right: solid 1px #f2f5ff;
+	vertical-align: middle;
+	height: 32px;
+	line-height: 32px;
+	width: 30%;
+}
+
+.addClients ul.clients-info li dl dd input[type="text"] {
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	width: 62%;
+	margin-left: 4%;
+	border: solid 1px #959595;
+}
+
+.addClients ul.clients-info li dl dd input[type="date"] {
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	width: 62%;
+	margin-left: 4%;
+	border: solid 1px #959595;
+}
+
+.addClients ul.clients-info li dl dd select {
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	width: 62%;
+	margin-left: 4%;
+	border: solid 1px #959595;
+}
+
+.addClients ul.clients-title {
+	font-size: 0px;
+	clear: both;
+}
+
+.addClients ul.clients-title li {
+	display: inline-block;
+	width: 33%;
+	font-size: 14px;
+	text-align: center;
+}
+
+.addClients ul.clients-title li a {
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	border-radius: 0px;
+	margin: 0px;
+	margin-bottom: 14px;
+}
+
+a.addClients_update {
+	display: inline-block;
+	padding: 0px 10px;
+	background-color: #9992ff;
+	color: #fff;
+	width: 7%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: 20px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	clear: both;
+	overflow: hidden;
+}
+
+.updateDialog .customerInfo.addClients {
+	position: fixed;
+	top: 23%;
+	box-shadow: inset 0px 0px 4px #9299f3;
+	left: 24%;
+	display: none;
+	width: 52%;
+	min-width: 500px;
+	left: auto !important;
+	height: 450px;
+	height: 350px;
+}
+
+.updateDialog .customerInfo.addClients ul.clients-info {
+	height: 244px;
+}
+
+.updateInfo ul.reportInfo li.update-customer-info dd {
+	width: 10.5% !important;
+}
+
+.updateInfo .dialog {
+	min-height: auto !important;
+}
+
+.close_button#closeAddBox a {
+	border-left: #0px !important;
+	background-color: transparent;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 2000px) {
+	.updateDialog .addClients ul.clients-info li dl dd input[type="text"],
+	.updateDialog .addClients ul.clients-info li dl dd input[type="date"],
+	.updateDialog .addClients ul.clients-info li dl dd select {
+		width: 36%;
+		min-width: auto !important;
+	}
+	a.addClients_update {
+		width: 12%;
+	}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1200px) {}
+
+.updateInfo .dialog .addClients a.editInfo {
+	width: 40%;
+}
+
+.updateInfo .dialog .addClients a.deleteCustomerInfo {
+	width: 40%;
+}
+
+div#dialog2 .addClients.customerInfo select {
+	border-radius: 0px;
+}
+
+
+/*06-11修改*/
+
+ul.add-msg li.exchangeRate {
+	font-size: 14px;
+}
+
+ul.add-msg li.exchangeRate span {
+	display: inline-block;
+	width: 64% !important;
+	text-align: left;
+	padding-left: 4px;
+}
+
+ul.add-msg li.exchangeRate span input[type='text'] {
+	width: 80px !important;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.updateDialog .updateForm ul.add-msg li.exchangeRate {
+	color: #323232;
+	font-size: 14px;
+}
+
+.updateDialog .updateForm ul.add-msg li.exchangeRate span {
+	width: 50% !important;
+}
+
+.updateDialog .updateForm ul.add-msg li.exchangeRate span input[type='text'] {
+	width: 80px !important;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.addClients ul.clients-info li.last-info,
+.updateDialog .customerInfo.addClients ul.clients-info li.last-info {
+	height: auto !important;
+}
+
+.addClients ul.clients-info,
+.updateDialog .customerInfo.addClients ul.clients-info {
+	min-height: 276px;
+	height: auto;
+}
+
+.addClients ul.clients-info li dl dd ul.add-msg {
+	padding: 0px;
+	width: 51% !important;
+	margin-left: 4%;
+	display: inline-block;
+}
+
+.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg {
+	width: 100% !important;
+}
+
+.addClients ul.clients-info li dl dd ul.add-msg li.discountCard,
+.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg li.discountCard {
+	width: 100% !important;
+	padding: 0px;
+	border-right: 0px;
+	margin-bottom: 0px;
+	height: auto !important;
+}
+
+.addClients ul.clients-info li dl dd ul.add-msg li.discountCard label,
+.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg li.discountCard label {
+	height: 60px;
+	line-height: 60px;
+}
+
+.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl,
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl {
+	width: 96% !important;
+}
+
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl {
+	margin-left: 0px !important;
+	margin-bottom: 0px;
+	margin-top: 4px;
+}
+
+.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption dd {
+	width: 48% !important;
+	margin-right: 0px;
+}
+
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption dd {
+	margin-bottom: 0px;
+}
+
+.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dd.discount-text,
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dd.discount-text {
+	width: 69% !important;
+}
+
+.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dd.discount-apply,
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dd.discount-apply {
+	width: 30% !important;
+}
+
+.addClients p {
+	height: 32px !important;
+	line-height: 32px !important;
+}
+
+.updateDialog .customerInfo.addClients ul.clients-info {
+	height: auto;
+}
+
+.updateDialog .customerInfo.addClients {
+	height: auto;
+	padding: 10px !important;
+}
+
+.updateInfo ul.reportInfo li.customerInfoTitle dl dd {
+	width: 9.6% !important;
+}
+
+
+/*06/12修改*/
+
+@media only screen and (min-width: 100px) and (max-width: 1199px) {
+	.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dd.discount-text {
+		width: 64% !important;
+	}
+	.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dd.discount-apply a {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 799px) {
+	.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption dd {
+		width: 44% !important;
+		margin-bottom: 0px;
+	}
+	.addClients ul.clients-info li dl dd ul.add-msg {
+		width: 48% !important;
+	}
+	.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption dd a {
+		height: 24px;
+		line-height: 24px;
+		font-size: 12px;
+	}
+	ul.add-msg li.discountCard dl.discountNotice span {
+		font-size: 12px;
+	}
+}
+
+.addClients p a {
+	margin-left: 0px;
+}
+
+.addClients.editcustomerInfo {
+	padding-bottom: 10px !important;
+}
+
+
+/*06-13修改*/
+
+.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg {
+	display: inline-block;
+	width: 52% !important;
+	margin-left: 4% !important;
+}
+
+.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption dd {
+	width: 47% !important;
+	padding: 0px !important;
+}
+
+.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption {
+	height: initial !important;
+	line-height: initial !important;
+	margin-top: 0px !important;
+}
+
+.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption dd a {
+	height: 26px !important;
+	line-height: 26px !important;
+	font-size: 12px;
+}
+
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.exchange {
+	height: auto !important;
+}
+
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.exchange dd.discount-text {
+	width: 66% !important;
+	margin-bottom: 0px !important;
+}
+
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.exchange dd.discount-text input {
+	width: 100% !important;
+}
+
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.exchange dd.discount-apply {
+	width: 34% !important;
+}
+
+.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.exchange dd.discount-apply a {
+	margin-top: 0px !important;
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 100px) {
+	.updateDialog .addClients ul.clients-info li dl dd input[type="text"],
+	.updateDialog .addClients ul.clients-info li dl dd input[type="date"],
+	.updateDialog .addClients ul.clients-info li dl dd select {
+		width: 52%;
+		min-width: auto !important;
+	}
+}
+
+.updateDialog .addClients ul.clients-info li dl dd label {
+	min-width: initial !important;
+	font-size: 12px;
+}
+
+.updateDialog .addClients ul.clients-info li {
+	height: initial !important;
+}
+
+.updateDialog .addClients p a {
+	min-width: 92px;
+}
+
+.updateDialog .updateForm ul.add-msg li.exchangeRate span input[type='text'] {
+	width: 79px !important;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1373px) {
+	.updateDialog .updateForm ul.add-msg li.exchangeRate span input[type='text'] {
+		width: 24% !important;
+	}
+	.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption dd {
+		width: 100% !important;
+	}
+	.updateDialog .customerInfo.addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.discountOption dd {
+		width: 100% !important;
+	}
+	.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.exchange dd.discount-apply {
+		width: 40% !important;
+	}
+	.updateDialog .addClients ul.clients-info li dl dd ul.add-msg li.discountCard dl.exchange dd.discount-text {
+		width: 60% !important;
+	}
+	.updateDialog .addClients ul.clients-info li dl dd label {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+	.updateDialog .customerInfo.addClients {
+		top: 16%;
+	}
+}
+
+.updateDialog .addClients ul.clients-title li a {
+	min-width: 90px;
+}
+
+ul.add-msg li.discountCard dl dd a.discountApply {
+	font-size: 12px !important;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1075px) {
+	.updateDialog .addClients ul.clients-info li dl dd label {
+		line-height: 20px;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+	.addClients ul.clients-info li dl dd label{font-size: 13px;}
+	/*ul.add-msg li.discountCard dl dd{font-size: 13px;}*/
+}

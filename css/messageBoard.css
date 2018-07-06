@@ -1,0 +1,399 @@
+@charset "utf-8";
+.filterMessage {
+	margin-top: 30px;
+}
+
+.filterMessage ul {}
+
+.filterMessage ul li {
+	display: inline-block;
+	width: 16%;
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+}
+
+.filterMessage ul li select,
+.filterMessage ul li input[type=text] {
+	height: 30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	padding-left: 4px;
+	width: 80%;
+	border: solid 1px #BEBEBE;
+}
+
+.filterMessage ul li a {
+	display: inline-block;
+	width: 50%;
+	font-size: 15px;
+	box-shadow: 0px 4px 5px #cdcdcd;
+	text-align: center;
+	background-color: #ffffff;
+	height: 30px;
+	line-height: 30px;
+}
+
+.messageBoard {}
+
+.messageBoard .leftMessageTab {
+	width: 62%;
+	display: inline-block;
+}
+
+.messageBoard .rightMeaaageTab {
+	width: 38%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+.messageBoard .leftMessageTab ul.problemMsg {
+	height: 50px;
+	line-height: 50px;
+}
+
+.messageBoard .leftMessageTab ul.problemMsg li:first-child {
+	display: inline-block;
+	width: 80%;
+}
+
+.messageBoard .leftMessageTab ul.problemMsg li:last-child {
+	display: inline-block;
+	width: 20%;
+	visibility: hidden;
+}
+
+.messageBoard .leftMessageTab ul.problemMsg input[type='checkbox'] {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 17px;
+}
+
+.messageBoard .leftMessageTab ul.problemMsg li {
+	font-size: 15px;
+	color: #3d3d3d;
+	position: relative;
+}
+
+.messageBoard .leftMessageTab ul.problemMsg li i {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #b4b4b4;
+	border-radius: 3px;
+	position: absolute;
+	top: 17px;
+}
+
+.messageBoard .leftMessageTab ul.problemMsg li label {
+	margin-left: 20px;
+}
+
+ul.messageCard {
+	/*border: solid 1px #959595;*/
+	border: solid 1px #d2d2d2;
+}
+
+ul.messageCard li {
+	cursor: pointer;
+}
+
+ul.messageCard li.messageTitle {
+	background-color: #9295ff;
+	color: #ffffff;
+}
+
+ul.messageCard li.messageTitle dl dd {
+	color: #ffffff;
+}
+
+ul.messageCard li dl {
+	font-size: 0px;
+}
+
+ul.messageCard li dd {
+	display: inline-block;
+	border-right: solid 1px #d2d2d2;
+	text-align: center;
+	font-size: 15px;
+	min-height: 38px;
+	line-height: 38px;
+	word-wrap: break-word;
+}
+
+ul.messageCard li dd.askItem {
+	width: 10%;
+	text-align: center;
+}
+
+ul.messageCard li dd.askTime {
+	width: 12%;
+}
+
+ul.messageCard li dd.problemType {
+	width: 12%;
+}
+
+ul.messageCard li dd.problemContent {
+	width: 20%;
+}
+
+ul.messageCard li dd.moreInfo {
+	width: 22%;
+}
+
+ul.messageCard li dd.answerInfo {
+	width: 23%;
+}
+
+ul.messageCard li dd:last-child {
+	border-right: 0px;
+}
+
+ul.messageCard li {
+	background-color: #FFFFFF;
+}
+
+ul.messageCard li dl dd {
+	color: #5f5f5f;
+	vertical-align: top;
+}
+
+ul.messageCard li {
+	border-bottom: solid 1px #D2D2D2;
+}
+
+ul.answerAndAdd {
+	width: 95%;
+	margin-left: 4%;
+	width: 89%;
+    margin-left: 4%;
+    /*padding-left: 3%;
+    padding-right: 3%;*/
+   width: 95.5%;
+}
+
+ul.answerAndAdd li {
+	display: inline-block;
+	display: inline-block;
+	font-size: 16px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background-color: #888aee;
+	border-right: solid 1px #484ca5;
+	width: 49.8%;
+	color: #ffffff;
+}
+
+ul.answerAndAdd li:last-child {
+	border-right: 0px;
+}
+
+ul.answerAndAdd li.addItem {
+	border-top-right-radius: 4px;
+}
+
+ul.answerAndAdd li.answerItem {
+	border-top-left-radius: 4px;
+}
+
+ul.answerAndAdd li.selected {
+	background-color: #ff893f;
+}
+
+.rightMeaaageTab .detailMsg {
+	width: 89%;
+	margin-left: 4%;
+	padding-left: 3%;
+	padding-right: 3%;
+	background-color: #ffffff;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border: solid 1px #d2d2d2;
+	border-top: 0px;
+}
+
+.rightMeaaageTab .detailMsg ul {}
+
+.rightMeaaageTab .detailMsg ul li {}
+
+.rightMeaaageTab .detailMsg ul li label {
+	display: inline-block;
+	background-color: #f2f5ff;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #383838;
+	font-weight: bold;
+	border-left: 3px #fbd608 solid;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 2%;
+	width: 30%;
+}
+
+.rightMeaaageTab .detailMsg ul li textarea {
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+	resize: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	border: solid 1px #959595;
+}
+
+.rightMeaaageTab .detailMsg ul li.actionFilerBox {}
+
+.rightMeaaageTab .detailMsg ul li.actionFilerBox a {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	background-color: #9295ff;
+	width: 45%;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 10%;
+}
+
+.rightMeaaageTab .detailMsg ul li.actionFilerBox a:last-child {
+	margin-right: 0px;
+}
+
+.rightMeaaageTab .detailMsg p {
+	display: inline-block;
+	min-height: 32px;
+	width: 100%;
+	color: #636363;
+	font-size: 15px;
+}
+
+.rightMeaaageTab .answerCard {
+	display: none;
+}
+
+ul.messageCard li.messageDetail.selected {
+	background-color: #FADA5E;
+}
+
+ul.messageCard li.messageDetail.selected dl dd {
+	color: #323232;
+}
+
+ul.answerAndAdd li {
+	cursor: pointer;
+}
+
+p.answerMoreInfo {
+	margin-bottom: 10px;
+}
+
+ul.messageCard li.messageDetail.resolved {
+	background-color: #b4b4b4;
+}
+
+ul.messageCard li.messageDetail.resolved dl dd {
+	color: #ffffff;
+}
+
+.detailMsg.resolvedCard {
+	visibility: hidden;
+}
+
+.detailMsg.resolvedCard li a {
+	background-color: #b4b4b4;
+	color: #ffffff;
+}
+
+.filterMessage ul li a.selected {
+	background-color: #ece8e7;
+	box-shadow: inset -1px -3px 3px #b8b8b8;
+	color: #9294ff
+}
+
+.rightMeaaageTab .detailMsg.resolvedCard ul li.actionFilerBox a {
+	background-color: #b4b4b4;
+}
+
+ul.messageCard li.messageDetail.resolved dl dd {
+	display: -webkit-inline-box;
+	overflow: hidden;
+	white-space: normal!important;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	height: 80px !important;
+}
+
+.detailMsg.resolvedCard p.answerMoreInfo {
+	border-bottom: solid 4px #737373;
+}
+
+.detailMsg.resolvedCard p.answerMoreInfo:last-child {
+	border-bottom: 0px;
+}
+
+ul.messageCard li:last-child {
+	border-bottom: 0px;
+}
+
+
+/*06-12修改*/
+
+ul.messageCard li.messageDetail.selected dl dd {
+	color: #646464;
+}
+
+.filterMessage ul li select option.hover {
+	background-color: #89abd9;
+}
+
+ul.messageCard li dd.problemContent {
+	width: 19%;
+	padding-left: 1%;
+	text-align: left;
+}
+
+ul.messageCard li.messageTitle dd.problemContent {
+	text-align: center;
+}
+
+ul.messageCard li dd.moreInfo {
+	width: 21%;
+	padding-left: 1%;
+	text-align: left;
+}
+
+ul.messageCard li.messageTitle dd.moreInfo {
+	text-align: center;
+}
+
+.detailMsg.resolvedCard p.answerMoreInfo {
+	width: 84% !important;
+	line-height: 32px;
+}
+.detailMsg.resolve ul li{
+	min-height: 212px;
+}
+/*06-13修改*/
+/*回复框*/
+ul.messageCard li.messageDetail.selected dl dd.answerInfo{height: auto !important;}
+/*06-21*/
+.filterMessage ul li .autocomplete-items{
+	width: 80%;
+    left: 0px;
+    box-sizing: border-box;
+    right: initial;
+} 
+@media only screen and (min-width: 100px) and (max-width: 1358px) {
+	ul.messageCard li.messageDetail dl dd{
+		font-size: 13px;
+	}
+	
+}

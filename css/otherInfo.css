@@ -1,0 +1,1136 @@
+@charset "utf-8";
+.navInfo ul li dl {
+	border-top: 0px !important;
+}
+
+.showMsg .floor .groupMsg {
+	min-height: 740px !important;
+}
+
+.theamInfo .showMsg.otherManage {
+	padding-top: 0px;
+}
+
+.otherManageArea {
+	font-size: 0px;
+	text-align: left;
+}
+
+.showMsg .floor .groupMsg {
+	position: relative;
+}
+
+.theamInfo .showMsg.otherManage .theamTitle {
+	display: inline-block;
+	width: 5%;
+	height: 36px;
+	line-height: 36px;
+	background-color: #9295ff;
+	position: absolute;
+	left: 0px;
+	top: 12px;
+	color: #fff;
+	font-size: 16px;
+	padding: 0px 0px 0px 6px;
+	text-align: center;
+	min-width: 92px;
+}
+
+.theamInfo .showMsg.otherManage .theamTitle i {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	float: left;
+	margin-top: 13px;
+}
+
+.leftInfoCard {
+	display: inline-block;
+	width: 49%;
+	min-height: 400px;
+	clear: both;
+	overflow: hidden;
+}
+
+.rightInfoCard {
+	display: inline-block;
+	width: 49%;
+	min-height: 400px;
+	clear: both;
+	overflow: hidden;
+	vertical-align: top;
+	margin-top: 127px;
+}
+
+.otherManageNav {
+	margin-top: 25px;
+}
+
+.otherManageNav ul {
+	font-size: 0px;
+}
+
+.otherManageNav ul li {
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	background-color: #7f82df;
+	border-left: solid 1px #484ca7;
+	min-width: 110px;
+	width: 19.82%;
+	min-width: 88px;
+}
+
+.otherManageNav ul li:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-left: 0px;
+}
+
+.otherManageNav ul li:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.otherManageNav ul li a {
+	width: 100%;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: center;
+	display: inline-block;
+}
+
+.otherManageNav ul li.current-item {
+	background-color: #fc8038;
+}
+
+.checkbox {
+	padding-left: 10px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 16px;
+	margin-bottom: 36px;
+}
+
+.checkbox label {
+	color: #7776c6;
+	font-size: 15px;
+}
+
+.checkbox label::after {
+	display: inline-block;
+	position: absolute;
+	left: 0px !important;
+	top: 0px !important;
+	margin-left: -18px !important;
+	padding-left: 3px;
+	font-size: 14px !important;
+	color: #555555;
+	width: 14px !important;
+	height: 14px !important;
+	padding: 1px !important;
+}
+
+.checkbox-success input[type="checkbox"]:checked+label::before {
+	background-color: #ffffff !important;
+	border-color: #9295ff !important;
+	border: solid 2px !important;
+}
+
+.checkbox label::before {
+	border-color: #9295ff !important;
+	border: solid 2px !important;
+}
+
+.checkbox-success input[type="checkbox"]:checked+label::after {
+	color: #9295ff !important;
+}
+
+.filterBox {}
+
+.filterBox ul {
+	font-size: 0px;
+}
+
+.filterBox li {
+	display: inline-block;
+}
+
+.filterBox li.discountCode {
+	width: 30%;
+}
+
+.filterBox li.discountCode input[type='text'],
+.filterBox li.discountAmount input[type='text'] {
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 8px;
+	width: 94%;
+	border: solid 1px #bebebe;
+}
+
+.filterBox li.discountAmount {
+	width: 30%;
+}
+
+.filterBox li.action-item {
+	width: 18%;
+	height: 32px;
+	line-height: 32px;
+	display: inline-block;
+	min-width: 44px;
+	background-color: #eeebe6;
+	text-align: center;
+	box-shadow: 1px 4px 4px #b3b3b1;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #b6b2af;
+	font-weight: bold;
+	-webkit-transition: all;
+	transition: all;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	margin-right: 3.5%;
+}
+
+.filterBox li.action-item a {
+	color: #b6b2af;
+	display: inline-block;
+	width: 100%;
+}
+
+.filterBox li.action-item:last-child {
+	margin-right: 0px;
+}
+
+.filterBox li.action-item.selected {
+	background-color: #ece8e7;
+	box-shadow: inset 1px 3px 4px #b8b8b8;
+}
+
+.filterBox li.action-item.selected a {
+	color: #f88032;
+}
+
+ul.listInfo {
+	margin-top: 24px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 99.2%;
+	border: solid 1px #d2d2d2;
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+ul.listInfo li {
+	width: 100%;
+	border-bottom: solid 1px #d2d2d2;
+	background-color: #ffffff;
+}
+
+ul.listInfo li:last-child {
+	border-bottom: 0px;
+}
+
+ul.listInfo li.listTitle {
+	border: 0px;
+	background-color: #9295ff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+ul.listInfo li.listTitle dd {
+	display: inline-block;
+	color: #ffffff !important;
+}
+
+ul.listInfo li.listTitle dd:first-child {
+	border-top-left-radius: 10px;
+}
+
+ul.listInfo li.listTitle dd:last-child {
+	border-top-right-radius: 10px;
+}
+
+ul.listInfo li dd {}
+
+ul.listInfo li dl {}
+
+ul.listInfo li dl dd {
+	display: inline-block;
+	font-size: 14px;
+	border-right: solid 1px #d2d2d2;
+	width: 24.82%;
+	text-align: center;
+	color: #646464;
+	min-width: 110px;
+	line-height: initial;
+	vertical-align: middle;
+	word-wrap: break-word;
+	/*overflow: hidden;*/
+	min-height: 32px;
+	line-height: 32px;
+}
+
+ul.listInfo li.listTitle dd {
+	height: 42px;
+	line-height: 42px;
+}
+
+ul.listInfo li dl dd:last-child {
+	border-right: 0px;
+}
+
+ul.listInfo.disabledListInfo {
+	display: none;
+}
+
+ul.listInfo.disabledListInfo li dd {
+	width: 19.82%;
+	min-width: 80px;
+}
+
+ul.addInfo {
+	width: 60%;
+	margin-left: 6%;
+	background-color: #fff;
+	padding-bottom: 2%;
+	/*06/27*/
+	border: solid 1px #DDDDDD;
+    border-radius: 5px;
+}
+
+ul.addInfo li.title {
+	width: 100%;
+	background-color: #9295ff;
+	color: #fff;
+	font-size: 15px;
+	height: 42px;
+	line-height: 42px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	/*letter-spacing: 4px;*/
+	margin-top: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+ul.addInfo li {
+	margin-top: 18px;
+	padding: 0px 2%;
+	position: relative;
+}
+
+ul.addInfo li label {
+	display: inline-block;
+	width: 18%;
+	background-color: #f2f5ff;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	color: #6f7073;
+	font-weight: bold;
+	border-left: 3px #fbd608 solid;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 2%;
+	width: 30%;
+}
+
+ul.addInfo li input[type='text'],
+ul.addInfo li textarea {
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	display: inline-block;
+	width: 78%;
+	border: solid 1px #959595;
+	padding-left: 10px;
+	text-align: left;
+	width: 66%;
+	vertical-align: top;
+	resize: none;
+}
+
+ul.addInfo li textarea {
+	height: auto !important;
+}
+
+ul.addInfo li.actionFilerBox {
+	padding: 0px 2%;
+}
+
+ul.addInfo li.actionFilerBox a {
+	margin-right: 19%;
+}
+
+ul.addInfo li.actionFilerBox a {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	background-color: #9295ff;
+	width: 40%;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+}
+
+ul.addInfo li.actionFilerBox a:last-child {
+	margin-right: 0px;
+}
+
+
+/*客户来源部分*/
+
+ul.salesNav {
+	width: 100%;
+	font-size: 0px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+
+ul.salesNav li {
+	display: inline-block;
+}
+
+ul.salesNav li.salesFilter {
+	width: 80%;
+	visibility: hidden;
+	text-align: left;
+}
+
+ul.salesNav li.backBox {
+	width: 35%;
+	text-align: right;
+	padding-right: 4.2%
+}
+
+ul.salesNav li.optionItem {
+	width: 10%;
+	text-align: left;
+}
+
+ul.salesNav li.optionItem a {
+	display: inline-block;
+	text-align: center;
+	background-color: #9394e7;
+	font-size: 16px;
+	border-radius: 50%;
+	box-shadow: 0px 3px 3px #6262a2;
+	transition: all;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+}
+
+ul.salesNav li.optionItem.option-active a {
+	box-shadow: inset 0px 3px 5px #6262a2;
+	background-color: #a7aef2;
+}
+
+ul.salesNav li.optionItem a img {
+	width: 50%;
+}
+
+ul.salesNav li select,
+ul.salesNav li input[type="text"] {
+	box-sizing: border-box;
+	height: 32px;
+	width: 100%;
+	width: 34.5%;
+}
+
+ul.salesNav li input[type="text"] {
+	width: 99.6%;
+}
+
+.rightInfo {
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	min-height: 260px;
+}
+
+.rightInfo ul {
+	width: 90%;
+	height: 100%;
+	clear: both;
+	overflow: hidden;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.rightInfo ul li.chartTitle {
+	font-size: 16px;
+	background-color: #9295ff;
+	color: #fff;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+
+.rightInfo ul li.salesName {
+	background-color: #ffffff;
+	color: #ffffff;
+	height: 32px;
+	line-height: 32px;
+	color: #323232;
+	text-align: center;
+	font-size: 14px;
+	border-bottom: solid 1px #cccccc;
+	cursor: pointer;
+	clear: both;
+	overflow: hidden;
+}
+
+.rightInfo ul li.salesName.selected {
+	background-color: #D2D2D2;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.rightInfo ul li.salesName:last-child {
+	border-bottom: 0px;
+}
+
+ul.listInfo li dl:hover {
+	border: solid 1px red;
+	cursor: pointer;
+}
+
+ul.listInfo li.listTitle dl:hover {
+	border: none !important;
+}
+
+ul.listInfo li dl:hover dd {
+	color: #636363;
+}
+
+
+/*选中状态*/
+
+ul.listInfo li dl.selected {
+	background-color: #FADA5E;
+	color: #636363;
+}
+
+.checkbox input[type="checkbox"]:checked+label::after {
+	font-size: 14px !important;
+}
+
+ul.listInfo li.listTitle dl:hover {
+	background-color: transparent;
+}
+
+
+/*加载下一页*/
+
+.leftInfoCard a.order-unfold {
+	display: inline-block;
+	width: 99.2%;
+	background-color: #9295ff;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+	border: solid 1px #D2D2D2;
+}
+
+.leftInfoCard a.order-unfold img {
+	width: 16px;
+	height: 16px;
+	margin-right: 2%;
+}
+
+ul.salesNav li.salesFilter input[type='text'] {
+	width: 60%;
+}
+
+ul.salesNav li.salesFilter .addBtn {
+	display: inline-block;
+	width: 18%;
+	height: 30px;
+	line-height: 30px;
+	border: solid 1px #ccc;
+	vertical-align: top;
+	text-align: center;
+	box-shadow: 0px 0px 4px #b3b3b1;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #b3b3b1;
+	font-weight: bold;
+	-webkit-transition: all;
+	transition: all;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	background-color: #edeae5;
+	margin-left: 2%;
+}
+
+ul.salesNav li.salesFilter .addBtn.selected {
+	background-color: #ece8e7;
+	box-shadow: inset 1px 3px 4px #b8b8b8;
+	color: #f88032;
+}
+
+.divisionRightInfo {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.divisionRightInfo ul.divisionName {
+	width: 19.82%;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.divisionRightInfo ul.divisionDetail {
+	display: inline-block;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-left: solid 1px #cccccc;
+	width: 79.7%;
+	vertical-align: top;
+}
+
+.divisionRightInfo ul.divisionDetail li.detailText {
+	display: inline-block;
+	background-color: #ffffff;
+	color: #ffffff;
+	min-height: 32px;
+	line-height: 32px;
+	color: #323232;
+	text-align: center;
+	font-size: 14px;
+	border-bottom: solid 1px #cccccc;
+	cursor: pointer;
+	clear: both;
+	overflow: hidden;
+	word-break: break-word;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.divisionRightInfo ul.divisionDetail li.detailText:last-child {
+	border-bottom: 0px;
+}
+
+.divisionRightInfoCard {
+	margin-top: 30px;
+}
+
+.divisionRightInfo ul.divisionMsg {
+	height: 100%;
+	clear: both;
+	overflow: hidden;
+	border-radius: 5px;
+	background-color: #fff;
+	border: solid 1px #CCCCCC;
+	width: 99.6%;
+	border-bottom-left-radius: initial;
+	border-bottom-right-radius: initial;
+}
+
+.divisionRightInfo ul.divisionMsg li {
+	background-color: #ffffff;
+	color: #ffffff;
+	color: #323232;
+	text-align: center;
+	font-size: 14px;
+	border-bottom: solid 1px #cccccc;
+	cursor: pointer;
+	clear: both;
+	overflow: hidden;
+}
+
+.divisionRightInfo ul.divisionMsg li dl {
+	width: 100%;
+	height: 100%;
+	font-size: 0px;
+}
+
+.divisionRightInfo ul.divisionMsg li dl dd {
+	font-size: 14px;
+	min-height: 32px;
+	line-height: 32px;
+}
+
+.divisionRightInfo ul.divisionMsg li dl dd.divisionName {
+	width: 19.82%;
+	display: inline-block;
+	border-right: solid 1px #CCCCCC;
+}
+
+.divisionRightInfo ul.divisionMsg li dl dd.divisionDetail {
+	width: 78.7%;
+	vertical-align: top;
+	display: inline-block;
+	word-break: break-word;
+	padding-left: 1%;
+	text-align: left !important;
+}
+
+.divisionRightInfo ul.divisionMsg li.tabTitle {
+	font-size: 16px;
+	background-color: #9295ff;
+	color: #ffffff;
+}
+
+.divisionRightInfo ul.divisionMsg li.tabTitle dd.divisionDetail {
+	text-align: center !important;
+}
+
+.divisionRightInfo ul.divisionMsg li:last-child {
+	border-bottom: 0px;
+}
+
+.divisionRightInfo ul.divisionMsg li:hover {
+	border: solid 1px red;
+}
+
+.divisionRightInfo ul.divisionMsg li.tabTitle:hover {
+	border: none;
+	border-right: none;
+}
+
+.otherManageNav ul li {
+	width: 9.72%;
+}
+
+ul.listInfo.defaultList li dl dd.detailMsg {
+	vertical-align: top;
+	display: inline-block;
+	word-break: break-word;
+	padding-left: 1%;
+	text-align: left;
+	width: 23.82%;
+	line-height: 32px !important;
+	clear: both;
+	overflow: hidden;
+}
+
+ul.listInfo.disabledListInfo li dl dd.detailMsg {
+	vertical-align: top;
+	display: inline-block;
+	word-break: break-word;
+	padding-left: 1%;
+	text-align: left;
+	width: 18.82%;
+	line-height: 32px !important;
+	clear: both;
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1245px) {
+	ul.listInfo.defaultList li dl dd.detailMsg {
+		padding-left: 0px;
+	}
+	ul.listInfo.disabledListInfo li dl dd.detailMsg {
+		padding-left: 0px;
+	}
+}
+
+
+/*其他管理    其他s*/
+
+.otherManageArea .leftManageInfo {
+	display: inline-block;
+	width: 40%;
+	min-height: 800px;
+	width: 36%;
+	vertical-align: top;
+	margin-top: 20px;
+	padding-right: 3%;
+}
+
+.otherManageArea .rightManageInfo {
+	display: inline-block;
+	width: 60%;
+	min-height: 800px;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.otherManageArea .manageCard {
+	background-color: #ffffff;
+	border-radius: 4px;
+	margin-bottom: 26px;
+	padding-bottom: 15px;
+	border: solid 1px #d2d2d2;
+}
+
+.otherManageArea .manageCard ul {}
+
+.otherManageArea .manageCard ul li {
+	min-height: 32px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.otherManageArea .manageCard ul li.manageAction {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.otherManageArea .manageCard ul li.manageTitle {
+	height: 40px;
+	line-height: 40px;
+	background-color: #9295ff;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.otherManageArea .manageCard ul li dl.manageCardNav {}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd {}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd.optionItem {
+	width: 15%;
+	text-align: left;
+	display: inline-block;
+}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd.optionItem a {
+	display: inline-block;
+	text-align: center;
+	background-color: #9394e7;
+	font-size: 16px;
+	border-radius: 50%;
+	box-shadow: 0px 3px 3px #6262a2;
+	transition: all;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	width: 42px;
+	height: 42px;
+	line-height: 42px
+}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd.optionItem a img {
+	width: 50%;
+}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd.confirmManageInfo {
+	width: 70%;
+	text-align: left;
+	display: inline-block;
+	display: none;
+}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd.confirmManageInfo input {
+	width: 78%;
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	border: solid 1px #959595;
+}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd.confirmManageInfo a {
+	display: inline-block;
+	width: 18%;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	text-align: center;
+	box-shadow: inset 0px 0px 4px #c8c8c8;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #b8b8b8;
+	font-weight: bold;
+	-webkit-transition: all;
+	transition: all;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	background-color: #ece8e4;
+	margin-left: 2%;
+	background: url(../img/btn.png) center center no-repeat;
+}
+
+.otherManageArea .manageCard ul li.manegeDetailInfo {}
+
+.otherManageArea .manageCard ul li.manegeDetailInfo label {
+	display: inline-block;
+	min-width: 92px;
+	background-color: #f2f5ff;
+	font-size: 14px;
+	text-align: center;
+	color: #383838;
+	font-weight: bold;
+	border-left: 3px #fbd608 solid;
+	border-right: solid 1px #f2f5ff;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: top;
+	width: 30%;
+}
+
+.otherManageArea .manageCard ul li.manegeDetailInfo dl {
+	width: 60%;
+	display: inline-block;
+	border: solid 1px #d2d2d2;
+	margin-left: 2%;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.otherManageArea .manageCard ul li.manegeDetailInfo dl dd {
+	background-color: #ffffff;
+	color: #ffffff;
+	height: 32px;
+	line-height: 32px;
+	color: #323232;
+	text-align: center;
+	font-size: 14px;
+	border-bottom: solid 1px #cccccc;
+	cursor: pointer;
+	clear: both;
+	overflow: hidden;
+}
+
+.otherManageArea .manageCard a.order-unfold {
+	display: inline-block;
+	width: 100%;
+	background-color: #9295ff;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	cursor: pointer;
+	width: 60%;
+	margin-left: 2%;
+	border: solid 1px #9295ff;
+}
+
+.otherManageArea .manageCard a.order-unfold img {
+	width: 16px;
+	height: 16px;
+	margin-right: 2%;
+}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd.optionItem.option-active a {
+	box-shadow: inset 0px 3px 5px #6262a2;
+	background-color: #a7aef2;
+}
+
+.otherManageArea .manageCard ul li dl.manageCardNav dd.confirmManageInfo a.option-active {
+	color: #878aec;
+	box-shadow: inset 0px 6px 10px #B8B8B8;
+}
+
+.manageCard.divisionCard ul li.manageAction {
+	width: 70%;
+}
+
+.manageCard.divisionCard .divisionRightInfo {
+	width: 57%;
+	margin-top: 0px;
+	margin-left: 2%;
+	border: solid 1px #DDDDDD;
+	border-radius: 5px;
+}
+
+.manageCard.divisionCard .divisionRightInfo dl {
+	width: 100% !important;
+	margin-left: 0px !important;
+	border: none !important;
+}
+
+.manageCard.divisionCard .divisionRightInfo dl dd {
+	border: none !important;
+	background-color: transparent !important;
+}
+
+.manageCard.divisionCard .divisionRightInfo dl dd.divisionName {
+	border-right: solid 1px #DDDDDD !important;
+}
+
+.manageCard.divisionCard .divisionRightInfo ul.divisionMsg li.tabTitle dd {
+	color: #FFFFFF !important;
+}
+
+.manageCard.manageContent.paymentManage {
+	width: 60%;
+}
+
+.manageCard.manageContent.paymentManage a.order-unfold {
+	width: 60%;
+}
+
+.manageCard.divisionCard a.order-unfold {
+	width: 57%;
+	border: none;
+}
+
+.otherManageArea .manageCard ul li.manegeDetailInfo dl dd.selected {
+	background-color: #D2D2D2;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.otherManageArea .manageCard.manageContent ul li.manegeDetailInfo dl {
+	min-height: 210px;
+}
+
+.manageCard.divisionCard .divisionRightInfoCard {
+	display: inline-block;
+	width: 38%;
+	margin-top: 0px;
+	border: solid 1px #DDDDDD;
+	margin-left: 2%;
+	min-height: auto;
+	border-radius: 5px;
+}
+
+.manageCard.divisionCard .divisionRightInfoCard ul.addInfo {
+	width: 100%;
+	margin-left: 0px;
+}
+
+.manageCard.divisionCard .divisionRightInfoCard ul.addInfo input[type='text'],
+.manageCard.divisionCard .divisionRightInfoCard textarea {
+	width: 64%;
+}
+
+.manageCard.divisionCard .divisionRightInfoCard textarea {
+	line-height: 24px;
+}
+
+.manageCard.divisionCard li.manegeDetailInfo {
+	margin-top: 15px;
+}
+
+.manageCard.divisionCard ul li.manegeDetailInfo dl dd {
+	min-height: 32px;
+	height: auto;
+}
+
+.manageCard.divisionCard .divisionRightInfo ul.divisionMsg li.tabTitle {
+	background-color: #abadfa;
+}
+
+.manageCard.divisionCard ul.addInfo li.title {
+	background-color: #abadfa;
+	padding: 0px;
+}
+
+.manageCard.divisionCard ul li.manegeDetailInfo label {
+	min-width: initial;
+}
+
+.manageCard.exchangeRateCard {
+	width: 60%;
+}
+
+.manageCard.exchangeRateCard ul li a {
+	display: inline-block;
+	width: 24%;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: top;
+	text-align: center;
+	box-shadow: 0px 0px 4px #c8c8c8;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #b8b8b8;
+	font-weight: bold;
+	-webkit-transition: all;
+	transition: all;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	background-color: #ece8e4;
+	background: url(../img/btn_bg.png) center center no-repeat;
+}
+
+.manageCard.exchangeRateCard ul li a.selected {
+	color: #878aec;
+	box-shadow: inset 0px 0px 4px #c8c8c8;
+}
+
+.manageCard.exchangeRateCard ul li a:last-child {
+	margin-left: 3%;
+}
+
+.manageCard.exchangeRateCard dl {
+	min-height: initial !important;
+	border: none !important;
+}
+
+.manageCard.exchangeRateCard dl dd {
+	border: none !important;
+	color: #3a3c68;
+}
+
+.manageCard.exchangeRateCard dl dd input[type='text'] {
+	box-sizing: border-box;
+	height: 30px;
+	width: 80px;
+	color: #c1c1c1;
+	text-align: center;
+	border: solid 1px #3a3c68;
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+.manageCard.exchangeRateCard li.manegeDetailInfo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.otherManageNav ul li {
+	width: 17%;
+}
+
+.manageCard.exchangeRateCard ul li.manegeDetailInfo label {
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	margin-top: 4px;
+	width: 35%;
+}
+
+.manageCard.exchangeRateCard ul li.manegeDetailInfo dl dd {
+	text-align: left;
+	font-size: 16px;
+}
+
+.manageCard.exchangeRateCard ul li a.current {
+	box-shadow: inset 0px 4px 10px #B8B8B8;
+}
+
+.otherManageArea .manageCard ul li.manegeDetailInfo dl dd:last-child {
+	border-bottom: none;
+}
+
+
+/*其他管理    其他e*/

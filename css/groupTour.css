@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/*独立团部分      s*/
+
+
+/*点击准备金弹出的表格    s*/
+
+.fundMsg {
+	clear: both;
+	margin: 0px auto;
+	background-color: #fff;
+	text-align: left;
+	padding: 26px 32px;
+	border-radius: 4px;
+}
+
+.fundMsg ul {}
+
+.fundMsg ul li {
+	display: inline-block;
+	width: 30%;
+	*display: inline;
+	margin-bottom: 12px;
+}
+
+.fundMsg ul li a.proTab {
+	background-color: #ece8e7;
+	padding: 0px;
+	color: #efaa70;
+	width: 74px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 5px;
+	width: 24%;
+	height: 1.6vw;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.6vw;
+	cursor: pointer;
+	background-color: #ece8e7;
+	box-shadow: inset 0px 2px 4px 4px #999999;
+	width: 6vw;
+	height: 28px;
+	line-height: 28px;
+	background-color: #fbfbf9;
+	color: #aeb2b2;
+	box-shadow: 1px 6px 4px #b3b3b1;
+}
+
+.fundMsg ul li a.proTab.tabhover {
+	background-color: #ece8e7;
+	box-shadow: inset 0px 2px 4px 4px #999999;
+}
+
+
+/*.fundMsg ul li a.proTab:hover {
+	background-color: #ece8e7;
+	box-shadow: inset 0px 2px 4px 4px #999999;
+}*/
+
+.fundMsg ul li label {
+	display: inline-block;
+	width: 20%;
+	width: 23%;
+	text-align: center;
+	font-size: 14px;
+}
+
+.fundMsg ul li input[type="text"] {
+	width: 208px;
+	height: 28px;
+	border-radius: 4px;
+	width: 54%;
+	border: solid 1px #ebebeb;
+	outline: none;
+	padding-left: 10px;
+	color: #bfbfbf;
+	font-size: 14px;
+	color: #323232;
+	background-color: #fff;
+}
+
+.userTab {
+	clear: both;
+	margin: 0px auto;
+	background-color: #fff;
+	text-align: left;
+	padding: 26px 32px;
+	border-radius: 4px;
+	margin-top: 2%;
+}
+
+.userTab ul {
+	padding: 10px;
+}
+
+.userTab ul li {}
+
+.userTab ul li label {
+	color: #b3b3b3;
+	font-size: 14px;
+	display: inline-block;
+	width: 7%;
+	width: 6vw;
+}
+
+.userTab ul li input[type="text"] {
+	width: 290px;
+	height: 20px;
+	width: 42%;
+	padding-left: 8px;
+	height: 1.4vw;
+	border: solid 1px #ebebeb;
+	margin-right: 10px;
+}
+
+ul.dtip {}
+
+ul.dtip input[type="text"] {
+	width: 85.8% !important
+}
+
+.updateUserCard.userTab {
+	border: solid 1px #eeeeee;
+}
+
+.fundMsg.updateFundMsg {
+	border: solid 1px #eeeeee;
+}
+
+.fundMsg ul li a.proTab {
+	display: inline-block;
+	min-width: 112px;
+	background-color: #edeae5;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	box-shadow: 1px 4px 4px #b3b3b1;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #b3b3b1;
+	font-weight: bold;
+	-webkit-transition: all;
+	transition: all;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+.fundMsg ul li a.proTab.tabhover {
+	background-color: #ece8e7;
+	box-shadow: inset 1px 3px 4px #b8b8b8;
+	color: #f88032;
+}
+ul.dtip.driverTip{padding-top: 0px;}
+
+
+/*点击准备金弹出的表格    e*/
+
+
+/*独立团部分      e*/
+ul.add-msg li input[type="text"]#guideTel{color: #CCCCCC;}
+.updateDialog ul.add-msg li input#updateGuideTel{color: #CCCCCC;}

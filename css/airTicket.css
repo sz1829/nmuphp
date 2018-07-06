@@ -1,0 +1,1018 @@
+@charset "utf-8";
+
+/*机票部分      s*/
+
+
+/*06-13修改  s*/
+
+.airticketMsg ul.add-msg li input[type="text"],
+.airticketMsg ul.add-msg li input[type="date"],
+.airticketMsg ul.add-msg li select,
+.airticketMsg ul.add-msg li textarea,
+.airticketMsg ul.add-msg li.discountCard dl.discountOption,
+.airticketMsg ul.add-msg li.discountCard dl.exchange,
+.airticketMsg ul.add-msg li.discountCard dl.discountNotice,
+.airticketMsg dl.people-count,
+.airticketMsg dl.ticket-option,
+.airticketMsg ul.add-msg li .roundTripInfo {
+	width: 72% !important;
+	margin-left: 1% !important;
+}
+
+.airticketMsg dl.people-count dd input[type='text'] {
+	width: 50% !important;
+}
+
+
+/*06-13修改  e*/
+
+dl.ticket-option {
+	height: 30px;
+	text-align: left;
+}
+
+dl.ticket-option dd {
+	display: inline-block;
+	font-size: 14px;
+	width: 26%;
+	position: relative;
+	text-indent: 6%;
+	height: 24px;
+	line-height: 24px;
+}
+
+dl.ticket-option dd i {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border: solid 2px #9295ff;
+	border-radius: 50%;
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	cursor: pointer;
+}
+
+dl.ticket-option dd.option-active {}
+
+dl.ticket-option dd {
+	box-shadow: 0px 0px 4px #cfcfcd;
+	display: inline-block;
+	border-radius: 20px;
+	text-align: center;
+	color: #a8acad;
+	background-color: #fbfbf9;
+	box-shadow: -1px 0px 4px #cfcfcd;
+	text-indent: 0px !important;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+dl.ticket-option dd.option-active {
+	background-color: #ece8e7;
+	box-shadow: -1px -3px 3px #b8b8b8;
+	color: #9294ff;
+	border-radius: 20px;
+}
+
+dl.ticket-option dd.option-active i {
+	background-color: #fbd608;
+}
+
+dl.people-count {
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	font-size: 0px !important;
+}
+
+dl.people-count dd {
+	display: inline-block;
+	width: 33.333% !important;
+	font-size: 14px;
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+}
+
+dl.people-count dd input[type='text'] {
+	width: 70% !important;
+	margin-left: 0px !important;
+	box-sizing: border-box;
+	height: 30px;
+	line-height: 30px;
+}
+
+li.ticket-theam {
+	clear: both;
+	overflow: hidden;
+}
+
+
+/*机票更新部分       s*/
+
+.planeTicketsBox li dl dd {
+	width: 6.4% !important;
+}
+
+.dialog-plane dl.ticket-option {
+	width: 77.8% !important;
+	padding: 4px 0px;
+}
+
+.dialog-plane dl.ticket-option dd {
+	width: 26% !important;
+}
+
+.dialog-plane dl.people-count {
+	clear: both;
+	overflow: hidden;
+	/*height: auto !important;*/
+}
+
+.dialog-plane dl.people-count dd {
+	margin: 0px;
+	height: auto;
+	width: 32.6% !important;
+}
+
+.dialog-plane dl.people-count dd input[type='text'] {
+	width: 61% !important;
+}
+
+.dialog-plane .addClients ul.clients-info li dl dd {
+	width: 100%;
+}
+
+.dialog-plane .addClients ul.clients-info li dl dd input[type="date"] {
+	margin-left: 4% !important;
+	width: 62% !important;
+}
+
+.customerInfo {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 0px;
+}
+
+.addClients ul.clients-info {
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	font-size: 0px;
+	text-align: center;
+	height: 276px;
+}
+
+.addClients ul.clients-info.indiviClientInfo {
+	width: 95%;
+}
+
+.addClients.air-customer ul.clients-info li {
+	width: 49% !important;
+	height: 220px;
+	padding: 0px;
+}
+
+.addClients ul.clients-info li {
+	width: 29.2%;
+	display: inline-block;
+	border-right: dashed 2px #a8aaff;
+	height: 286px;
+	vertical-align: top;
+	padding: 0px 2%;
+	margin-right: 0px;
+	font-size: 14px;
+}
+
+.addClients ul.clients-info li.last-info {
+	border-right: none;
+}
+
+.addClients ul.clients-info li dl {}
+
+.addClients ul.clients-info li dl dd {
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 17px;
+}
+
+.addClients ul.clients-info li dl dd:last-child {
+	margin-bottom: 0px !important;
+}
+
+.addClients ul.clients-info li dl dd label {
+	display: inline-block;
+	min-width: 92px;
+	min-height: 24px;
+	background-color: #f2f5ff;
+	font-size: 14px;
+	text-align: center;
+	color: #6f7073;
+	font-weight: bold;
+	border-left: 3px #fbd608 solid;
+	border-right: solid 1px #f2f5ff;
+	vertical-align: middle;
+	height: 32px;
+	line-height: 32px;
+	width: 30%;
+}
+
+.addClients ul.clients-info li dl dd input[type="text"] {
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	width: 62%;
+	margin-left: 4%;
+	border: solid 1px #959595;
+}
+
+.addClients ul.clients-info li dl dd input[type="date"] {
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	width: 62%;
+	margin-left: 4%;
+	border: solid 1px #959595;
+}
+
+.addClients ul.clients-info li dl dd select {
+	box-sizing: border-box;
+	height: 32px;
+	line-height: 32px;
+	width: 62%;
+	margin-left: 4%;
+	border: solid 1px #959595;
+}
+
+.addClients ul.clients-title {
+	font-size: 0px;
+	clear: both;
+}
+
+.addClients ul.clients-title li {
+	display: inline-block;
+	width: 33%;
+	font-size: 14px;
+	text-align: center;
+}
+
+.addClients ul.clients-title li a {
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	border-radius: 0px;
+	margin: 0px;
+	margin-bottom: 14px;
+}
+
+.dialog-plane .updateInfo ul.reportInfo li.customerInfoTitle dl dd {
+	width: 13% !important;
+}
+
+.dialog-plane .updateInfo ul.reportInfo li.customerInfo dl dd {
+	width: 13% !important;
+}
+
+a.addClients_update {
+	display: inline-block;
+	padding: 0px 10px;
+	background-color: #9992ff;
+	color: #fff;
+	width: 7%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: 20px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	clear: both;
+	overflow: hidden;
+}
+
+.updateDialog .customerInfo.addClients {
+	position: fixed;
+	top: 23%;
+	box-shadow: inset 0px 0px 4px #9299f3;
+	display: none;
+	width: 42%;
+	min-width: 500px;
+	height: 349px;
+}
+
+.updateDialog .addClients.clientsInfoBox ul.clients-info li {
+	height: 270px !important;
+}
+
+.updateDialog .customerInfo.addClients.clientsInfoBox {
+	display: block;
+	position: static;
+	width: auto !important;
+	left: auto !important;
+	right: auto !important;
+	box-shadow: initial;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.updateDialog .customerInfo.addClients.clientsInfoBox ul.clients-title li {
+	width: 50%;
+}
+
+.updateDialog .addClients.air-customer ul.clients-title li a {
+	margin-top: 0px;
+}
+
+.updateDialog .addClients ul.clients-info li dl dd {
+	width: 100% !important;
+}
+
+.updateInfo .dialog {
+	min-height: auto !important;
+}
+
+.updateDialog .addClients ul.clients-info li {
+	height: 240px;
+}
+
+.close_button#closeAddBox a {
+	border-left: #0px !important;
+	background-color: transparent;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1600px) {
+	.updateDialog .addClients ul.clients-info li dl dd input[type="text"],
+	.updateDialog .addClients ul.clients-info li dl dd input[type="date"],
+	.updateDialog .addClients ul.clients-info li dl dd select {
+		width: 36% !important;
+		min-width: auto !important;
+	}
+	.updateInfo ul.reportInfo li.customerInfo dl dd a.editInfo {
+		width: 100% !important;
+	}
+}
+
+@media only screen and (min-width: 1611px) and (max-width: 2000px) {
+	.updateDialog .addClients ul.clients-info li dl dd input[type="text"],
+	.updateDialog .addClients ul.clients-info li dl dd input[type="date"],
+	.updateDialog .addClients ul.clients-info li dl dd select {
+		width: 50% !important;
+		min-width: auto !important;
+	}
+	.updateInfo ul.reportInfo li.customerInfo dl dd a.editInfo {
+		width: 100% !important;
+	}
+}
+
+.updateDialog .addClients p.confirmAmend,
+.updateDialog .addClients p.confirmAdd {
+	padding: 0px;
+	margin: 0px;
+	height: 32px !important;
+	line-height: 32px !important;
+}
+
+.updateDialog .addClients p.confirmAmend a,
+.updateDialog .addClients p.confirmAdd a {
+	width: 15%;
+}
+
+.updateDialog .addClients ul.clients-info {
+	height: auto !important;
+}
+
+.updateDialog .updateForm ul.add-msg li.discountCard dl.exchange dd.discount-text input {
+	margin-left: 0px !important;
+}
+
+.updateDialog ul.add-msg li.discountCard dl.discountOption {
+	font-size: 0px !important;
+}
+
+.updateDialog ul.add-msg li.discountCard dl.discountOption dd {
+	margin-right: 6% !important;
+	width: 30% !important;
+}
+
+.updateDialog ul.add-msg li.discountCard dl.discountOption dd:last-child {
+	margin-right: 0px !important;
+}
+
+.updateDialog ul.add-msg li.discountCard dl.exchange dd.discount-text {
+	width: 74% !important;
+}
+
+.updateDialog ul.add-msg li.discountCard dl.exchange dd.discount-apply {
+	width: 26% !important;
+}
+
+.updateDialog .add-msg li.discountCard dl dd.discount-apply a.discountApply {
+	margin-left: 0px !important;
+}
+
+.updateDialog ul.add-msg li.discountCard dl.discountNotice {
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+	.dialog-plane#airticket-dialog dl.people-count dd {
+		font-size: 10px !important;
+	}
+}
+
+@media only screen and (min-width: 1210px) and (max-width: 1290px) {
+	.dialog-plane#airticket-dialog dl.people-count dd input[type="text"] {
+		margin-left: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+	.dialog-plane#airticket-dialog dl.people-count dd input[type="text"] {
+		width: 38% !important;
+		padding-left: 1px
+	}
+}
+
+dl.people-count dd {
+	width: 32.6% !important;
+	padding-left: 1% !important;
+}
+
+dl.people-count dd:first-child {
+	padding-left: 0px !important;
+}
+
+ul.add-msg li.discountCard dl.discountOption {
+	padding-left: 0px !important;
+}
+
+ul.add-msg li.discountCard dl.exchange {
+	padding-left: 0px !important;
+}
+
+ul.add-msg li.discountCard dl.exchange dd.discount-text input {
+	margin-left: 0px !important;
+}
+
+ul.add-msg li.discountCard dl.exchange dd.discount-text {
+	width: 80% !important;
+	display: inline-block;
+}
+
+ul.add-msg li.discountCard dl.exchange dd.discount-apply {
+	text-align: right;
+}
+
+.addClients.air-customer ul.clients-title li {
+	width: 50% !important;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+	.dialog-plane dl.people-count dd {
+		font-size: 10px !important;
+	}
+}
+
+
+/*机票更新部分       e*/
+
+
+/*机票部分      e*/
+
+#airticket-dialog select {
+	border-radius: initial !important;
+}
+
+ul.add-msg li .roundTripInfo {
+	color: #323232;
+	box-sizing: border-box;
+	background-color: transparent;
+	width: 64% !important;
+	display: inline-block;
+	margin-left: 6px !important;
+	text-align: left;
+	font-size: 0px;
+}
+
+ul.add-msg li .roundTripInfo input[type='text'] {
+	margin-left: 0px !important;
+	display: inline-block;
+	width: 49% !important;
+}
+
+ul.add-msg li .roundTripInfo input[type='text']:last-child {
+	margin-left: 2% !important;
+}
+
+ul.add-msg li input[type='text'].singleTripInfo {
+	display: none;
+}
+
+
+/*行程安排*/
+
+ul.add-msg li .scheduleInfo,
+ul.add-msg li .tourMsg {
+	color: #323232;
+	box-sizing: border-box;
+	background-color: transparent;
+	width: 64% !important;
+	display: inline-block;
+	margin-left: 6px !important;
+	text-align: left;
+	font-size: 0px;
+}
+
+ul.add-msg li .scheduleInfo input[type='text'],
+ul.add-msg li .scheduleInfo input[type='date'] {
+	margin-left: 0px !important;
+	display: inline-block;
+	width: 49% !important;
+}
+
+ul.add-msg li .scheduleInfo input[type='text'] {
+	margin-left: 2% !important;
+}
+
+
+/*更新页面   s*/
+
+.updateDialog .updateForm ul.add-msg li .roundTripInfo {
+	color: #323232;
+	box-sizing: border-box;
+	background-color: transparent;
+	width: 50% !important;
+	display: inline-block;
+	margin-left: 6px !important;
+	text-align: left;
+	font-size: 0px;
+}
+
+.updateDialog .updateForm ul.add-msg li .roundTripInfo input[type='text'] {
+	margin-left: 0px !important;
+	display: inline-block;
+	width: 49% !important;
+}
+
+.updateDialog .updateForm ul.add-msg li .roundTripInfo input[type='text']:last-child {
+	margin-left: 2% !important;
+}
+
+.updateDialog .updateForm ul.add-msg li input[type='text'].singleTripInfo {
+	display: none;
+}
+
+
+/*行程安排*/
+
+.dialog-plane ul.add-msg li .scheduleInfo,
+.dialog-plane ul.add-msg li .tourMsg {
+	color: #323232;
+	box-sizing: border-box;
+	background-color: transparent;
+	width: 50% !important;
+	display: inline-block;
+	margin-left: 6px !important;
+	text-align: left;
+	font-size: 0px;
+}
+
+.dialog-plane ul.add-msg li .scheduleInfo input[type='text'],
+.dialog-plane ul.add-msg li .scheduleInfo input[type='date'] {
+	margin-left: 0px !important;
+	display: inline-block;
+	width: 49% !important;
+}
+
+.dialog-plane ul.add-msg li .scheduleInfo input[type='text'] {
+	margin-left: 2% !important;
+}
+
+.dialog-plane ul.add-msg li .tourMsg input[type='text'] {
+	width: 13% !important;
+	margin-left: 0px !important;
+	display: inline-block;
+}
+
+.dialog-plane ul.add-msg li .tourMsg input[type='date'] {
+	width: 30% !important;
+	margin-left: 0px !important;
+	display: inline-block;
+}
+
+ul.add-msg li .tourMsg input[type='text'] {
+	width: 13% !important;
+	margin-left: 0px !important;
+	display: inline-block;
+	margin-right: 1%;
+	padding-left: 0px;
+}
+
+ul.add-msg li .tourMsg input[type='date'] {
+	width: 30% !important;
+	margin-left: 0px !important;
+	display: inline-block;
+}
+
+ul.add-msg li .tourMsg input[type="date"] {
+	margin-right: 1%;
+}
+
+ul.add-msg li .tourMsg span {
+	display: inline-block;
+	font-size: 14px;
+	margin: 0px 4px;
+}
+
+.airticketInfo {
+	position: absolute;
+	right: 0px;
+	top: -30px;
+}
+
+.airticketInfo a {
+	display: inline-block;
+	display: inline-block;
+	width: 24%;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	text-align: center;
+	box-shadow: 0px 0px 4px #c8c8c8;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #b7b7b7;
+	font-weight: bold;
+	-webkit-transition: all;
+	transition: all;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	display: inline-block;
+	text-align: center;
+	color: #a8acad;
+	background-color: #fbfbf9;
+	box-shadow: -1px 0px 4px #cfcfcd;
+	vertical-align: middle;
+	background: url(../img/defaultBtnBg.png) center center no-repeat;
+	text-shadow: 0px 0px 1px #c7c7c7;
+	background-size: 122% 122%;
+}
+
+.airticketInfo textarea {
+	line-height: 24px;
+	box-sizing: border-box;
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+	border: solid 1px #969696;
+	height: 132px;
+	margin-top: 16px;
+	resize: none;
+	font-size: 14px;
+}
+
+.airticketInfo a.selected {
+	background-color: #ece8e7;
+	box-shadow: inset -1px -3px 3px #b8b8b8;
+	color: #ffffff;
+	background: url(../img/selectedBtnBg.png) center center no-repeat;
+	text-shadow: 0px 0px 2px #ffffff;
+}
+
+
+/*06/12修改*/
+
+.airticketInfo {
+	right: 0px;
+}
+
+.updateDialog .updateForm .airticketInfo {
+	height: 149px !important;
+}
+
+.updateDialog .updateForm .airticketInfo a {
+	height: 26px;
+	line-height: 26px;
+}
+
+.updateDialog .updateForm .airticketInfo textarea {
+	line-height: 26px;
+	height: 117px;
+	resize: none;
+	resize: none;
+}
+
+.airticketInfo {
+	left: -14px;
+	top: -68px;
+	display: inline-block;
+}
+
+.floor .addInfo .cardLeft-individual {
+	margin-top: 40px;
+}
+
+.floor .addInfo .cardRight.info-price-individual {
+	margin-top: 44px !important;
+}
+
+
+/*06-13修改*/
+
+.airticketMsg ul.add-msg li .tourMsg input[type='date'] {
+	width: 33.9% !important;
+	padding-left: 1%;
+	text-align: center;
+}
+
+.airticketMsg ul.add-msg li .tourMsg input[type=date]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.airticketMsg ul.add-msg {
+	padding: 16px 4% !important;
+}
+
+.airticketMsg ul.add-msg li .tourMsg input[type=date]:first-child {
+	margin-right: 1% !important;
+}
+
+.airticketMsg ul.add-msg li label {
+	width: 20% !important;
+}
+
+.airticketMsg ul.add-msg li .tourMsg {
+	width: 76% !important;
+	margin-left: 1% !important;
+}
+
+.updateDialog .updateForm .airticketInfo {
+	width: 52%;
+}
+
+.updateDialog .updateForm ul.add-msg li .tourMsg input[type=date]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.dialog-plane ul.add-msg li .tourMsg input[type='date'] {
+	padding-left: 0px !important;
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1900px) {
+	.dialog-plane#airticket-dialog dl.people-count dd input[type="text"] {
+		width: 38% !important;
+		padding-left: 1px;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1099px) {
+	.dialog-plane#airticket-dialog dl.people-count dd input[type="text"] {
+		width: 28% !important;
+		padding-left: 1px;
+	}
+}
+
+@media only screen and (min-width:1920px) {
+	.dialog-plane ul.add-msg li .scheduleInfo,
+	.dialog-plane ul.add-msg li .tourMsg {
+		width: 78% !important;
+	}
+}
+
+@media only screen and (min-width: 1550px) and (max-width: 1919px) {
+	.dialog-plane ul.add-msg li .scheduleInfo,
+	.dialog-plane ul.add-msg li .tourMsg {
+		width: 70% !important;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.dialog-plane ul.add-msg li .tourMsg input[type='date'] {
+		width: 33% !important;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1549px) {
+	.dialog-plane ul.add-msg li .scheduleInfo,
+	.dialog-plane ul.add-msg li .tourMsg {
+		width: 94% !important;
+		margin-top: 10px;
+		margin-left: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1199px) {
+	.dialog-plane ul.add-msg li .scheduleInfo,
+	.dialog-plane ul.add-msg li .tourMsg {
+		width: 94% !important;
+		margin-top: 10px;
+		margin-left: 0px !important;
+	}
+}
+
+
+/*06-14修改*/
+
+.floor .addInfo .cardLeft.itineraryInfo {
+	min-height: auto;
+}
+
+.floor .addInfo .cardLeft.itineraryInfo .airticketInfo {
+	width: 100%;
+	padding: 0px;
+	height: 164px;
+	position: static;
+}
+
+.floor .addInfo .cardLeft.itineraryInfo .airticketInfo a {
+	width: 16%;
+	vertical-align: top;
+	margin-top: 16px;
+}
+
+.floor .addInfo .cardRight.info-date {
+	margin-top: -166px;
+}
+
+.updateDialog .cardRight.info-date {
+	margin-top: -151px !important;
+}
+
+.updateInfo .dialog ul.add-msg li.discountCard dl.discountOption dd {
+	width: 38% !important;
+}
+
+.airticketMsg ul.add-msg li .autocomplete-items {
+	width: 72% !important;
+	box-sizing: border-box;
+	right: 3.2%;
+}
+
+@media only screen and (min-width: 1370px) and (max-width: 1390px) {
+	.airticketMsg ul.add-msg li .autocomplete-items {
+		right: 2.7%;
+	}
+}
+
+@media only screen and (min-width: 1340px) and (max-width: 1369px) {
+	.airticketMsg ul.add-msg li .autocomplete-items {
+		right: 2.5%;
+	}
+}
+
+@media only screen and (min-width: 1310px) and (max-width: 1339px) {
+	.airticketMsg ul.add-msg li .autocomplete-items {
+		right: 2.2%;
+	}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1309px) {
+	.airticketMsg ul.add-msg li .autocomplete-items {
+		right: 1.8%;
+	}
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1279px) {
+	.airticketMsg ul.add-msg li .autocomplete-items {
+		right: 1.7%;
+	}
+}
+
+@media only screen and (min-width: 1220px) and (max-width: 1249px) {
+	.airticketMsg ul.add-msg li .autocomplete-items {
+		right: 1.7%;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1219px) {
+	.airticketMsg ul.add-msg li .autocomplete-items {
+		right: 1.3%;
+	}
+}
+
+.airticketAddTab dl.people-count dd.item {
+	padding-left: 14.6% !important;
+	width: 23.6% !important;
+}
+
+.airticketAddTab dl.people-count dd:first-child {
+	width: 23.6% !important;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+	.addClients ul.clients-info li dl dd label {
+		font-size: 13px;
+	}
+}
+
+.updateTab.airTicketUpdateTab ul li.listInvoice {
+	width: 11%;
+}
+
+.updateTab.airTicketUpdateTab ul li dl dd.listInvoice {
+	width: 11% !important;
+}
+
+.airticketMsg ul.add-msg li input[type="text"].startTime,
+.updateDialog .updateForm ul.add-msg li input[type="text"].startTime {
+	width: 40% !important;
+	margin-left: 0px !important;
+}
+
+.airticketMsg ul.add-msg li input[type="text"].airport,
+.updateDialog .updateForm ul.add-msg li input[type="text"].airport {
+	width: 22.5% !important;
+	margin-left: 5% !important;
+}
+
+.airticketMsg ul.add-msg li input[type="text"].airport:last-child,
+.updateDialog .updateForm ul.add-msg li input[type="text"].airport:last-child {
+	margin-left: 0px !important;
+}
+
+.airticketMsg ul.add-msg li span.tourText,
+.updateDialog .updateForm ul.add-msg li span.tourText {
+	display: inline-block;
+	font-size: 14px;
+	color: #6f7073;
+	width: 10%;
+	text-align: center;
+}
+
+.airticketMsg ul.add-msg li div.tour {
+	width: 72% !important;
+	margin-left: 1%;
+	display: inline-block;
+	font-size: 0px;
+}
+
+.updateDialog .updateForm ul.add-msg li div.tour {
+	width: 60% !important;
+	font-size: 0px;
+	display: inline-block;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1400px) {
+	.updateDialog .updateForm ul.add-msg li div.tour {
+		width: 62% !important;
+	}
+	.updateDialog .updateForm ul.add-msg li div.tour input[type="text"] {
+		font-size: 12px;
+	}
+}
+
+.airticketMsg ul.add-msg li div.tour input[type="text"] {
+	color: #323232;
+	font-style: normal;
+}
+
+.updateDialog .updateForm ul.add-msg li div.tour input[type="text"] {
+	padding-left: 2% !important;
+	color: #323232;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.airticketMsg ul.add-msg li div.tour input::-webkit-input-placeholder,
+.updateDialog .updateForm ul.add-msg li div.tour input::-webkit-input-placeholder {
+	color: #cac7c7;
+	font-style: italic;
+}
+
+.airticketMsg ul.add-msg li div.tour input::-moz-placeholder,
+.updateDialog .updateForm ul.add-msg li div.tour input::-webkit-input-placeholder {
+	color: #cac7c7;
+	font-style: italic;
+}
+
+.airticketMsg ul.add-msg li div.tour input:-moz-placeholder,
+.updateDialog .updateForm ul.add-msg li div.tour input::-webkit-input-placeholder {
+	color: #cac7c7;
+	font-style: italic;
+}
+
+.airticketMsg ul.add-msg li div.tour input:-ms-input-placeholder,
+.updateDialog .updateForm ul.add-msg li div.tour input::-webkit-input-placeholder {
+	color: #cac7c7;
+	font-style: italic;
+}
+
+.floor .addInfo .cardLeft.itineraryInfo .airticketInfo .btnArea{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	text-align: right;
+}
+.floor .addInfo .cardLeft.itineraryInfo .airticketInfo .btnArea a{
+	width: 80%;
+}
